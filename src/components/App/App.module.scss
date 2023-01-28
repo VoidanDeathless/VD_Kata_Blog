@@ -1,0 +1,40 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ebeef3;
+}
+
+.navbar {
+  margin: auto;
+  min-height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #ffffff;
+
+  &__home {
+    flex-grow: 1;
+    color: #000000d9;
+  }
+
+  &__sign-in {
+    color: #000000d9;
+  }
+
+  &__sign-up {
+    padding: 8px;
+    color: #52c41a;
+    border: 1px solid #52c41a;
+    border-radius: 5px;
+  }
+}
+
+.content {
+  display: flex;
+  max-width: 940px;
+  margin: auto;
+  padding: 24px;
+}
